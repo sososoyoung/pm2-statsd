@@ -4,7 +4,7 @@
   "description": "The statsd client for pm2",
   "main": "index.js",
   "scripts": {
-    "rs": "git pull && npm i && pm2 start statsd",
+    "rs": "git pull && npm i && pm2 restart statsd",
     "dev": "node index.js",
     "start": "pm2 start index.js --name statsd"
   },

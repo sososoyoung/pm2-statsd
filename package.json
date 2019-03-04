@@ -1,0 +1,21 @@
+{
+  "name": "pm2-statsd",
+  "version": "0.0.1",
+  "description": "The statsd client for pm2",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "statsd",
+    "pm2"
+  ],
+  "author": "Jason",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^11.9.6"
+  },
+  "dependencies": {
+    "axios": "^0.18.0"
+  }
+}
